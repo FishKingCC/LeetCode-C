@@ -1,2 +1,25 @@
 # LeetCode-C
-C solutions to LeetCode problems, organized by data structure and algorithm topic.
+
+使用 C 语言记录 LeetCode 刷题过程，按题号组织。
+
+题目列表见 [题目索引](PROBLEMS.md)。
+
+## 仓库结构
+
+```text
+LeetCode-C/
+├── README.md          # 仓库说明
+├── PROBLEMS.md        # 唯一的题目索引
+└── solutions/         # 已通过题目的解题代码
+    ├── 1.c            # 第 1 题（命名示例）
+    └── 20.c           # 第 20 题（命名示例）
+```
+
+## 记录约定
+
+- **按题号组织**：代码统一放在 `solutions/`，文件名使用原题号，例如 `1.c`、`20.c`
+- **单文件索引**：所有题目集中在 [PROBLEMS.md](PROBLEMS.md) 中记录，按题号数值升序排列
+- **题目来源**：索引记录题号、题名与原题链接；完整题面以原题页面为准
+- **思路随代码保存**：解题思路、时间与空间复杂度、踩坑和复盘写在对应 `.c` 文件顶部的注释里
+- **保留提交形式**：`.c` 文件以可提交至 LeetCode 的函数代码为主
+- **收录约定**：本人添加 `.c` 文件即表示该题已在 LeetCode 通过
