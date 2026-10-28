@@ -53,3 +53,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# 个人备忘录（不入库）
+备忘录.md
